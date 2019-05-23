@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Flixbus Charter</title>
+    <style>
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        button {
+            padding: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My cool event site!</h1>
+        <p> This is the site of my cool event!</p>
+        <p> Start Date: 24/07/2019 12:00</p>
+        <p> End Date: 27/07/2019 12:00</p>
+        <p> Price: € 60.00 </p>
+        <p> Place: Rho Fiera Milano </p>
+        <button> Buy tickets!!! </button>
+        <flixcharter-affiliate 
+            dest="My cool event"
+            api-key="AIzaSyCoeTn9JIOp54bGT59C2nAAAavoMq6Kldk"
+            dest-id="ChIJ-wZX7JTqhkcRJeEmup8dNLQ"
+            start="1563962400000"
+            end="1564221600000">
+        </flixcharter-affiliate>
+    </div>
+    <script src="https://unpkg.com/flixcharter-affiliate@0.0.2/dist/flixcharter-affiliate.js"></script>
+</body>
+</html>

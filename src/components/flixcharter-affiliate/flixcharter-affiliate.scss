@@ -1,0 +1,23 @@
+@import "../../../node_modules/@flixbus/honeycomb/dist/css/honeycomb.min.css";
+
+$color-primary: #73d700;
+$color-secondary: #ffad00;
+$color-neutral: #00b5e2;
+
+.flixcharter-affiliate {
+    font-family: "Roboto Condensed","Arial",sans-serif;
+    padding: 0; 
+}
+
+.flixcharter-content {
+    padding: 20px 10px;
+}
+
+.flix-connection tr:first-child .flix-connection__station::after {
+    top: 12px;
+    height: 110%;
+}
+
+.flix-connection {
+    margin-bottom: 0;
+}
